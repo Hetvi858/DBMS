@@ -1,0 +1,18 @@
+-- Write a program that prints value 1 to 100 numbers using FOR LOOP.
+set serveroutput on
+
+Declare
+	n number;
+	I number;
+
+Begin
+	n:=&n;
+	for I in 1..100
+	loop
+
+	Dbms_output.put_line(I);
+
+	End loop;
+End;
+/
+set serveroutput off
