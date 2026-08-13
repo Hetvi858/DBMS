@@ -1,5 +1,7 @@
 /* write a pL/Sql block the find area of circle*/
 set serveroutput on
+set feedback off
+set verify off
 
 declare
 	pi constant number(7,2):= 3.14;
@@ -15,3 +17,5 @@ end;
 /
 
 set serveroutput off
+set feedback on
+set verify on
