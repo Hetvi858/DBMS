@@ -1,4 +1,4 @@
-/* write a pL/Sql block the find area of circle*/
+/* write a pL/Sql block the find Circumference of Circle */
 
 set serveroutput on
 set feedback off
@@ -22,7 +22,7 @@ begin
 	w:=&w;
 	carea:= pi*power(2,1);
 
-	dbms_output.put_line('The area of circle is:'||carea);
+	dbms_output.put_line('The Circumference of Circle :'||carea);
 end;
 /
 
