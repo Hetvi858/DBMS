@@ -1,4 +1,6 @@
 set serveroutput on
+set feedback off
+set verify off
 Declare
 	feet number(10,2);
 	cm number(10,2);
@@ -17,4 +19,6 @@ Begin
 End;
 /
 set serveroutput off
+set feedback on
+set verify on
 
