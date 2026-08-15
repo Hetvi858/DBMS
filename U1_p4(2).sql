@@ -1,6 +1,8 @@
 -- Write a program that prints value 1 to 100 number using LOOP Command.
 
 set serveroutput on
+set feedback off
+set verify off
 
 Declare
 
@@ -20,3 +22,5 @@ End;
 /
 
 set serveroutput off
+set feedback on
+set verify on
