@@ -12,9 +12,9 @@ Begin
 	celsius:=&celsius;
 	fahrenheit:=(celsius *9/5)+ 32;
 	
-	Dbms_output.put_line('value of fahrenheit: '||fahrenheit);
+	Dbms_output.put_line('value of fahrenheit: '||fahrenheit||'F');
 
-	elseif choice 2 then
+elseif  choice= 2 then
 	
 	fahrenheit:= &fahrenheit;
 	celsius (fahrenheit -32)*5/9;
